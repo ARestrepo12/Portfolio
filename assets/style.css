@@ -22,3 +22,15 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+.welcome {
+    padding: 60px;
+    background-image: url(../assets/images/denali.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.welcome h1 {
+    float: right;
+
+}
