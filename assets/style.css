@@ -34,3 +34,9 @@ header nav ul li a {
     float: right;
 
 }
+
+.line {
+    border-right: 100px lightcoral;
+    height: 200px;
+  
+}
