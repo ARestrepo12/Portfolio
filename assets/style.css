@@ -40,3 +40,13 @@ header nav ul li a {
     height: 200px;
   
 }
+
+.preview img {
+    flex-wrap: wrap;
+    height: 400px;
+    width: 600px;
+    border-width: 5px;
+    border-color: lightcoral;
+    border-style: solid;
+    
+}
