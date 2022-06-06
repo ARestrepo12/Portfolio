@@ -134,3 +134,9 @@ header nav ul li a {
     width: 75%;
     margin: 30px;
 }
+
+header img {
+    height: 100px;
+    width: 78px;
+    float: right;
+}
