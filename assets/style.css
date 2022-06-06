@@ -81,7 +81,6 @@ header nav ul li a {
 .about-me {
     width: 25%;
     height: 200px;
-    float: right;
     font-size: 45px;
     margin-right: 20px;
 }
@@ -102,4 +101,36 @@ header nav ul li a {
 .paragraph {
     margin: 30px;
     width: 75%;
+}
+
+.work {
+    width: 25%;
+    height: 200px;
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.work h1{
+    float: right;
+}
+
+.preview {
+    width: 75%;
+    margin: 30px;
+}
+
+.contact-me {
+    width: 25%;
+    height: 200px;
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.contact-me h1 {
+    float: right;
+}
+
+.info {
+    width: 75%;
+    margin: 30px;
 }
