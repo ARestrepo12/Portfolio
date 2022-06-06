@@ -1,24 +1,43 @@
 body {
-    background-color: lightblue;
+    color: #303C6C
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBE8A6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: lightcoral;
+    background-color: #F4976C;
     height: 100px;
    
 }
 
-
+.navigation a {
+    font-size: 50px;
+    color: #303C6C;
+    font-weight: bolder;
+    
+}
 
 header nav ul li {
     padding: 10px 15px;
     justify-content: space-between;
     float: right;
+    list-style-type: none;
+}
+
+header nav ul li :hover {
+    color: #D2FDFF;
+    font-style: oblique;
 }
 
 header nav ul li a {
-    color: white;
+    color: #303C6C;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -28,15 +47,15 @@ header nav ul li a {
     background-image: url(../assets/images/denali.jpg);
     background-size: cover;
     height: 150px;
+    font-size: 30px;
 }
 
 .welcome h1 {
     float: right;
-
 }
 
 .line {
-    border-right: 100px lightcoral;
+    border-right: 100px black;
     height: 200px;
   
 }
@@ -46,7 +65,15 @@ header nav ul li a {
     height: 400px;
     width: 600px;
     border-width: 5px;
-    border-color: lightcoral;
-    border-style: solid;
-    
+    border-color: #B4DFE5;
+    border-style: solid; 
+    opacity: .85;
+    padding: 10px, 10px, 10px, 10px;
 }
+
+.preview img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  
+}
+
