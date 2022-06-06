@@ -1,5 +1,6 @@
 body {
-    color: #303C6C
+    color: #303C6C;
+    margin: 0;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -14,6 +15,7 @@ body {
 header {
     background-color: #F4976C;
     height: 100px;
+    margin-top: 0;
    
 }
 
@@ -21,7 +23,7 @@ header {
     font-size: 50px;
     color: #303C6C;
     font-weight: bolder;
-    
+    margin: 5px;
 }
 
 header nav ul li {
@@ -54,12 +56,6 @@ header nav ul li a {
     float: right;
 }
 
-.line {
-    border-right: 100px black;
-    height: 200px;
-  
-}
-
 .preview img {
     flex-wrap: wrap;
     height: 400px;
@@ -74,6 +70,36 @@ header nav ul li a {
 .preview img:hover {
     opacity: 1;
     transform: scale(1.05);
-  
 }
 
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.about-me {
+    width: 25%;
+    height: 200px;
+    float: right;
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.about-me h1 {
+    float: right;
+}
+
+.line {
+    border: solid;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-width: 6px;
+    margin:20px;
+}
+
+.paragraph {
+    margin: 30px;
+    width: 75%;
+}
